@@ -9,3 +9,5 @@
 - return or enter: `CTRL + m`
 - pause the terminal text flow: `CTRL + s`
 - resume the terminal text flow: `CTRL + q`
+  
+- delete a word: `ALT + backspace`
