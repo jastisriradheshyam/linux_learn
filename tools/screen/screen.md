@@ -3,7 +3,9 @@
 - list the screen instances: `screen -list`
 - screen reattach: `screen -r id_or_name_or_both`
 - screen detach and reattach: `screen -dr id_or_name_or_both`
-- split terminal vertically: `CTRL + a then |`
+- split vertically: `CTRL + a then |`
+- split horizontally: `CTRL + a then S`
+    - uppercase S
 - start a new session: `screen -S session_name`
 - close the current pane: `CTRL + a then :remove then enter`
 - close all panes: `CTRL + a then Q`
