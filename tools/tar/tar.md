@@ -3,7 +3,7 @@
 ## .tar
 - compress a folder or file: `tar -vcf archive_file_name.tar file_or_folder_to_compress_name`
 - extract tar file: `tar -vxf archive_file_name.tar`
-- test tar file: `tar -tvf archive_file_name.tar`i
+- test tar file: `tar -tvf archive_file_name.tar`
 ---
 
 ## .tar.gz

@@ -6,7 +6,7 @@
 - process information: `/proc`
 - device files: `/dev`
 - temporary files: `/tmp`
-- unix shared resource (user programs): `/usr`
+- user system resources (user programs): `/usr`
 - optional files: `/opt`
 - home: `/home`
 - mount directory: `/mnt`
