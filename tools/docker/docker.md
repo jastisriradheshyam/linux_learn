@@ -11,3 +11,4 @@
 - Remove all images: `docker rmi $(docker images | awk 'NR>1 {print $3}')`
 - Logs of the container: `docker logs continer_id`
 - Logs of the container with follow: `docker logs -f container_id`
+- Logs since N minutes (here 10 min.) with follow: `docker logs -f --since 10m container`
