@@ -12,3 +12,4 @@
 - Logs of the container: `docker logs continer_id`
 - Logs of the container with follow: `docker logs -f container_id`
 - Logs since N minutes (here 10 min.) with follow: `docker logs -f --since 10m container`
+- Run bash in container: `docker exec -it container_id bash`
