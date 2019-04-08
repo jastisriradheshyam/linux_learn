@@ -16,3 +16,12 @@
 - root home: `/root`
 - library: `/lib`
 - data for services provieded by the system (why?): `/srv`
+
+## Space
+
+- There are two ways in which a filesystem can run out of space:
+    - it can consume all the space for adding new data (i.e., to existing files or to new files),
+    - or it can use up all the inodes.[1]
+
+### **References**:
+[1] : [Inode definition by The Linux Information Project (LINFO)](http://www.linfo.org/inode.html)
