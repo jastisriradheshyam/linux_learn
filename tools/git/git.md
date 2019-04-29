@@ -25,3 +25,7 @@
 - verify origin url: `git remote -v`
 - add remote origin url http: `git remote add origin http://IP/path/to/repository`
 - change the remote origin url: `git remote set-url origin https://github.com/username/repo`
+
+----
+
+- shows the commit changes: `git show GITCOMMITHASH`
