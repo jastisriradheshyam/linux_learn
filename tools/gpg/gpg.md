@@ -8,3 +8,5 @@
 - Output public key to file: `gpg --ouput public.pgp --armor --export user@email`
 - Output private key to file: `gpg --ouput private.pgp --armor --export-secret-key user@email`
 - Import GPG private key: `gpg --import -c private.gpg`
+- Encrypt a file: `gpg -r RECIPIENT_EMAIL -e FILE_NAME`
+- Decrypt a file: `gpg -d FILE_NAME`
