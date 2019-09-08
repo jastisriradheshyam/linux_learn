@@ -11,3 +11,8 @@
 - resume the terminal text flow: `CTRL + q`
   
 - delete a word: `ALT + backspace`
+
+## Auto expansion
+- `!*` - all arguments of last command
+- `!!` - the whole of last command
+- `!ps` - last command starting with ps
