@@ -1,7 +1,7 @@
 # make
 
 - It's a build automation tool
-- `Makefile` is requied in the project to build, then run the command `make` to build the project.
+- `Makefile` is required in the project to build, then run the command `make` to build the project.
 
 ## Makefile example
 
@@ -21,3 +21,6 @@ addnum.o: addnum.c
 target: dependencies
     build instructions from dependencies
 ```
+
+References:
+[1]: [A Simple Makefile Tutorial - YouTube](https://www.youtube.com/watch?v=vye0kV5gvkA)
