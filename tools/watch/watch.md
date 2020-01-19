@@ -1,0 +1,4 @@
+- `watch free` : watch with 2 sec interval
+- `watch -n 5 free`: watch with 5 sec interval
+- `watch -n 5 -d free`: watch with differences and 5 sec interval
+    - `watch -n 5 -d "free"`: another way of writing above command (showing that it is possible to write composite commands)

@@ -1,0 +1,1 @@
+- `ssh-copy-id user@ip`: copy the user key to remote user and ssh will be password less.
