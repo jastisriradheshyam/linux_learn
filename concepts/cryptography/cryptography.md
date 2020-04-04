@@ -1,6 +1,6 @@
 # Cryptography
-## Topics:
 
+## Topics:
 - Hashing
 - Signing
 - Symmetric encryption
