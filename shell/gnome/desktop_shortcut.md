@@ -2,6 +2,10 @@
 
 ## Desktop shortcut:
 
+By default GNOME traverse the `/usr/share/applications` directory and search for `*.desktop` files.
+For directories / topics like office, games, etc. GNOME traverse the `/usr/share/desktop-directories` directory and search for `*.directory` files
+
+### Example
 - Filename: `postman.desktop`
 - Path: `~/.local/share/applications`
 - Full path with file: `~/.local/share/applications/postman.desktop`
