@@ -1,0 +1,2 @@
+- List the VMs : `VBoxManage list vms`
+- Show info : `VBoxManage showvminfo vm_name`
