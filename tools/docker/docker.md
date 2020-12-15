@@ -63,3 +63,9 @@
 - `docker network create --driver`
 - `docker network connect`
 - `docker network disconnect`
+
+
+---
+
+## Misc.
+- docker layers image: `docker history IMAGE:TAG`

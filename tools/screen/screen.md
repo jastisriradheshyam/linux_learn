@@ -11,7 +11,7 @@
 - unsplit the panes: `CTRL + a then Q`
 - scroll in screen: `CTRL + a, ESC`
     - use arrow keys to move, when done click q and escape
-
+- create session inside pane: `CTRL + a, then c`
 ---
 
 - get the screen ID: `screen -list | grep -e '\.lender[[:space:]]' | grep -o '[0-9]*\.' | grep -o '[^\.]*'`
@@ -23,5 +23,4 @@
 - switch to next terminal: `ctrl + a then space`
 - switch between terminals using list in a screen: `ctrl + a then "` (useful when more than 10 terminals)
 
----
-- layers image: `docker history IMAGE:TAG``
+
