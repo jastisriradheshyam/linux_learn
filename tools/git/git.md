@@ -33,3 +33,10 @@
 ----
 
 - remove a branch: `git branch -D BRANCH_NAME`
+
+----
+
+## Trivial Commands
+
+- Status : `git status`
+- Add/Stage all files in the repo scope: `git add -A`
