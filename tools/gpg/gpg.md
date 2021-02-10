@@ -10,3 +10,11 @@
 - Import GPG private key: `gpg --import private.gpg`
 - Encrypt a file: `gpg -r RECIPIENT_EMAIL -e FILE_NAME`
 - Decrypt a file: `gpg -d FILE_NAME`
+
+
+----
+- If passphrase is not asked : `gpg -c --pinentry-mode=loopback test`
+   - `--pinentry-mode=loopback` will force passphrase
+
+References:
+- [encryption - GnuPG decryption not asking for passphrase - Information Security Stack Exchange](https://security.stackexchange.com/a/230555/184792)
