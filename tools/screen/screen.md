@@ -8,6 +8,7 @@
     - uppercase S
 - start a new session: `screen -S session_name`
 - close the current pane: `CTRL + a then :remove then enter`
+    - alternatively: `CTRL + a then shift x` (capital X)
 - unsplit the panes: `CTRL + a then Q`
 - scroll in screen: `CTRL + a, ESC`
     - use arrow keys to move, when done click q and escape
@@ -23,4 +24,6 @@
 - switch to next terminal: `ctrl + a then space`
 - switch between terminals using list in a screen: `ctrl + a then "` (useful when more than 10 terminals)
 
-
+## switching the panes
+- `CTRL + a` then `:focus DIRECTION`
+    - here `DIRECTION` is `right`, `left`, `up`, `down`
