@@ -36,7 +36,21 @@
 
 ----
 
+## Change author
+
+- For a specific commit: `git commit --author="Name <email@example.com>"`
+- Amend last commit: `git commit --amend --author="Name <email@example.com>"`
+- A rebase can be done
+- filter-branch
+
+----
+
 ## Trivial Commands
 
 - Status : `git status`
 - Add/Stage all files in the repo scope: `git add -A`
+
+---
+
+## Referance:
+- git-tower.com/learning/git/faq/chnage-author-name-email
