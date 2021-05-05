@@ -1,6 +1,7 @@
 # SSH
 
 - `ssh-copy-id user@ip`: copy the user key to remote user and ssh will be password less.
+- `ssh -T domain.com` : used to test the auth. without have interactive shell example: `ssh -T git@github.com`
 
 ## Config
 
@@ -20,3 +21,4 @@ Host just_a_name_to_host
 ## References:
 
 [1] : [OpenSSH Config File Examples - nixCraft](https://www.cyberciti.biz/faq/create-ssh-config-file-on-linux-unix/)
+[2] : [tty - What is the benefit of not allocating a terminal in ssh? - Server Fault](https://stackoverflow.com/questions/17900760/what-is-pseudo-tty-allocation-ssh-and-github)
