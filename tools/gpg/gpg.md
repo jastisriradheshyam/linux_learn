@@ -16,5 +16,14 @@
 - If passphrase is not asked : `gpg -c --pinentry-mode=loopback test`
    - `--pinentry-mode=loopback` will force passphrase
 
-References:
+----
+## using gpg key from external device
+- `mkdir /path/to/the/a/desired/directory/in/external/drive/`
+- `gpg --homedir /path/to/the/a/desired/directory/in/external/drive/ --import /path/to/the/gpg_private_key.gpg`
+  - this will make the necessary files to manage the key and make the homedir for the particular key
+- export GNUPGHOME=/path/to/the/a/desired/directory/in/external/drive/
+  - now use it for encryption and decryption as required, this will be temporary and good practice for using key from external device
+  - importing is required once per a external device.
+
+## References:
 - [encryption - GnuPG decryption not asking for passphrase - Information Security Stack Exchange](https://security.stackexchange.com/a/230555/184792)
