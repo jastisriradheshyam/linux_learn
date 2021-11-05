@@ -52,5 +52,18 @@
 
 ---
 
+## Config
+
+- `--local` flag is default, for global use `--global` flag instead of `--local` flag
+
+- `git config --local user.signingkey "GPG_SHORT_ID"`
+- `git config --local commit.gpgsign true`
+  - will make gpg sign process everytime the commit is done
+- `git config --local user.email "name@domain"`
+- `git config --local user.name "Name"`
+- `git config --local user.username "username"`
+
+---
+
 ## Referance:
 - git-tower.com/learning/git/faq/chnage-author-name-email
