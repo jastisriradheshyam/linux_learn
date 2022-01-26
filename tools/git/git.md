@@ -63,7 +63,11 @@
 - `git config --local user.name "Name"`
 - `git config --local user.username "username"`
 
+## Windows
+- GPG program (requires installation of gpg4win program)
+  - `git config --global gpg.program $(Resolve-Path (Get-Command gpg | Select-Object -Expand Source) | Select-Object -Expand Path)`
 ---
 
 ## Referance:
 - git-tower.com/learning/git/faq/chnage-author-name-email
+- [git - How do I install and use gpg-agent on Windows? - Stack Overflow](https://stackoverflow.com/questions/50332885/how-do-i-install-and-use-gpg-agent-on-windows)
