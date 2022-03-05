@@ -4,3 +4,4 @@
 - `sudo fdisk -l`: list the formated disks.
 - `sudo umount path`: unmount the path that was mounted before.
 - `sudo mount /dev/sdb1 ~/.mnt/usb/`: mount a disk/device to path.
+- `findmnt -l`: listing mounted file systems

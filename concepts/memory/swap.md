@@ -26,7 +26,14 @@
 - By stopping swap all the swap memory (pages) are moved back to the memory (RAM): `sudo swapoff -a`
 - By changing Swap state to on, Swap will start with empty space: `sudo swapon -a`
 
+## Swap encryption
+- Swap encryption is used to encrypt the swap partation to protect the memory when parts of memory segments are written to swap.
+- Encrypting swap helps to protect data during hibernation
+- Lockdown is applied on hibernation when secure boot is applied and swap is not encrypted
+
 ## References:
 
 - [SwapFaq - Community Help Wiki --> What is swappiness and how do I change it?](https://help.ubuntu.com/community/SwapFaq#What_is_swappiness_and_how_do_I_change_it.3F) (Feb 2020)
 - [performance - How to empty swap if there is free RAM? - Ask Ubuntu](https://askubuntu.com/a/149427) (Feb 2020)
+- [encryption - Why encrypt the swap partition - Ask Ubuntu](https://askubuntu.com/questions/313564/why-encrypt-the-swap-partition) (Feb 2022)
+- [hibernate - Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7 - Unix & Linux Stack Exchange](https://unix.stackexchange.com/questions/598786/lockdown-systemd-logind-hibernation-is-restricted-see-man-kernel-lockdown-7) (Feb 2022)
