@@ -9,7 +9,7 @@
 - Root complex : usually CPU where we have only Downstream ports (DS)
 - Endpoint : Devices which have only Upstream ports (US), these are GPU's, Network cards, etc.
 - Bridge : Devices which have both Upstream and Downstream Ports, they connect two different buses
-- PCI Bus enumuration : search of PCI devices connected through PCI bus and listing them in hierarchical model
+- PCI Bus enumeration : search of PCI devices connected through PCI bus and listing them in hierarchical model
 
 ![PCI Bus Enumberation](./media_assets/pci_device_enumeration/pci_device_enumeration.png)
 

@@ -22,6 +22,8 @@
   - [efibootmgr.md](./efibootmgr/efibootmgr.md)
 - find
   - [find.md](./find/find.md)
+- firefox
+  - [firefox.md](./firefox/firefox.md)
 - firewall
   - [firewall.md](./firewall/firewall.md)
 - fsck

@@ -7,7 +7,7 @@ const updateTools = async function () {
     const directoryName = './tools';
     // get the directory list
     const list = await fs.promises.readdir(directoryName);
-    // sort in alpabatical order
+    // sort in alphabetical order
     list.sort();
     let directoryList = "";
     for (let index = 0; index < list.length; index++) {
@@ -19,8 +19,8 @@ const updateTools = async function () {
         directoryList += `- ${toolName}\n`;
         for (let index = 0; index < toolFileList.length; index++) {
             const toolFileDocName = toolFileList[index];
-            const toolFileDocNameSplited = toolFileDocName.split('.');
-            if (toolFileDocNameSplited.lastIndexOf('md') == toolFileDocNameSplited.length - 1) {
+            const toolFileDocNameSplitted = toolFileDocName.split('.');
+            if (toolFileDocNameSplitted.lastIndexOf('md') == toolFileDocNameSplitted.length - 1) {
                 directoryList += `  - [${toolFileDocName}](./${toolName}/${toolFileDocName})\n`;
             }
         }
@@ -32,7 +32,7 @@ const updateTools = async function () {
 };
 
 const main = function () {
-    console.log("Maintance script started");
+    console.log("Maintenance script started");
     updateTools();
 };
 
