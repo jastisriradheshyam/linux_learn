@@ -4,6 +4,8 @@
 
 - awk
   - [awk.md](./awk/awk.md)
+- brave_browser
+  - [brave_browser.md](./brave_browser/brave_browser.md)
 - certbot
   - [certbot.md](./certbot/certbot.md)
 - curl
