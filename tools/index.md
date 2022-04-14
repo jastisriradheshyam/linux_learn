@@ -43,6 +43,8 @@
   - [ip.md](./ip/ip.md)
 - kill
   - [kill.md](./kill/kill.md)
+- kubernetes
+  - [kubernetes.md](./kubernetes/kubernetes.md)
 - make
   - [make.md](./make/make.md)
 - mysql
