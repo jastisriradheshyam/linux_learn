@@ -58,6 +58,8 @@
   - [rsync.md](./rsync/rsync.md)
 - screen
   - [screen.md](./screen/screen.md)
+- selinux
+  - [selinux.md](./selinux/selinux.md)
 - ss
   - [ss.md](./ss/ss.md)
 - ssh
