@@ -52,6 +52,8 @@
   - [nc.md](./nc/nc.md)
 - openssl
   - [openssl.md](./openssl/openssl.md)
+- postgres
+  - [postgres.md](./postgres/postgres.md)
 - powershell
   - [powershell.md](./powershell/powershell.md)
 - rsync
