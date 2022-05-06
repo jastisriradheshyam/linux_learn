@@ -45,6 +45,7 @@
   - [kill.md](./kill/kill.md)
 - kubernetes
   - [kubernetes.md](./kubernetes/kubernetes.md)
+  - [minikube.md](./kubernetes/minikube.md)
 - make
   - [make.md](./make/make.md)
 - mysql
