@@ -12,6 +12,9 @@
   - [curl.md](./curl/curl.md)
 - date
   - [date.md](./date/date.md)
+- dig-and-nslookup
+  - [dig.md](./dig-and-nslookup/dig.md)
+  - [nslookup.md](./dig-and-nslookup/nslookup.md)
 - docker
   - [docker-compose.md](./docker/docker-compose.md)
   - [docker.md](./docker/docker.md)
