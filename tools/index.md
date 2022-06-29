@@ -44,6 +44,8 @@
   - [grep.md](./grep/grep.md)
 - ip
   - [ip.md](./ip/ip.md)
+- keepassxc
+  - [keepassxc.md](./keepassxc/keepassxc.md)
 - kill
   - [kill.md](./kill/kill.md)
 - kubernetes
@@ -80,6 +82,8 @@
   - [tail.md](./tail/tail.md)
 - tar
   - [tar.md](./tar/tar.md)
+- tilix
+  - [tilix.md](./tilix/tilix.md)
 - ufw
   - [ufw.md](./ufw/ufw.md)
 - vi
