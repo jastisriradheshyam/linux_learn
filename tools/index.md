@@ -90,6 +90,8 @@
   - [vi.md](./vi/vi.md)
 - virtual_box
   - [VBoxManage.md](./virtual_box/VBoxManage.md)
+- vscode
+  - [vscode.md](./vscode/vscode.md)
 - watch
   - [watch.md](./watch/watch.md)
 - x11vnc

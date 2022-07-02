@@ -31,9 +31,12 @@ const updateTools = async function () {
     fs.promises.writeFile(`${directoryName}/index.md`, finalDoc, { encoding: 'utf-8' });
 };
 
-const main = function () {
+const main = async function () {
     console.log("Maintenance script started");
-    updateTools();
+    await updateTools();
+    console.log("Maintenance script executed successfully");
 };
 
-main();
+main().catch(err=>{
+    console.error("Maintenance script got error during execution: ", err);u
+});
