@@ -42,6 +42,8 @@
   - [gpg_faq.md](./gpg/gpg_faq.md)
 - grep
   - [grep.md](./grep/grep.md)
+- haproxy
+  - [haproxy.md](./haproxy/haproxy.md)
 - ip
   - [ip.md](./ip/ip.md)
 - keepassxc
@@ -64,6 +66,8 @@
   - [postgres.md](./postgres/postgres.md)
 - powershell
   - [powershell.md](./powershell/powershell.md)
+- ps
+  - [ps.md](./ps/ps.md)
 - rsync
   - [rsync.md](./rsync/rsync.md)
 - screen
