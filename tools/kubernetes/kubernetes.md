@@ -5,6 +5,7 @@
 - Delete the pod: `kubectl delete pods POD_NAME --grace-period=0 --force`
 - Delete service: `kubectl delete services SERVICE_NAME --namespace NAMESPACE`
 - Apply YAML file: `kubectl apply -f PATH_TO_CONFIG.yaml`
+- Delete using YAML file: `kubectl delete -f PATH_TO_CONFIG.yaml`
 
 
 ## Local development

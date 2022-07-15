@@ -51,6 +51,7 @@
 - kill
   - [kill.md](./kill/kill.md)
 - kubernetes
+  - [helm.md](./kubernetes/helm.md)
   - [kubernetes.md](./kubernetes/kubernetes.md)
   - [minikube.md](./kubernetes/minikube.md)
 - make
