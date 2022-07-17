@@ -13,3 +13,9 @@
     schemaname != 'information_schema';
     ```
 - Watch query (Run the query every n seconds): `\watch 5`
+- Show the function body: `\sf FUNCTION_NAME`
+- Show the function in editable format (basically a template for creating new function based on the current one): `\ef FUNCTION_NAME`
+
+
+## References:
+- https://stackoverflow.com/questions/6898453/how-to-display-the-function-procedure-triggers-source-code-in-postgresql
