@@ -54,6 +54,10 @@
   - [helm.md](./kubernetes/helm.md)
   - [kubernetes.md](./kubernetes/kubernetes.md)
   - [minikube.md](./kubernetes/minikube.md)
+  - [subtopics](./kubernetes/subtopics)
+    - [deployments.md](./kubernetes/subtopics/deployments.md)
+    - [replicas.md](./kubernetes/subtopics/replicas.md)
+    - [services.md](./kubernetes/subtopics/services.md)
 - make
   - [make.md](./make/make.md)
 - mysql

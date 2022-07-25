@@ -2,6 +2,28 @@
 // Minimum Node JS version is 14.x.x
 const fs = require('fs');
 
+const getToolList = async (toolOrSubPath, parentRelativePath, level) => {
+    let directoryList = '';
+    const toolFileList = await fs.promises.readdir(toolOrSubPath);
+    for (let index = 0; index < toolFileList.length; index++) {
+        const toolFileDocOrDirName = toolFileList[index];
+        const toolSubPath = `${toolOrSubPath}/${toolFileDocOrDirName}`;
+        const toolSubPathStat = await fs.promises.stat(toolSubPath);
+        const nextParentRelativePath = `${parentRelativePath}/${toolFileDocOrDirName}`;
+        const indentationSpaces = '  '.repeat(level);
+        if (toolSubPathStat.isDirectory()) {
+            directoryList += `${indentationSpaces}- [${toolFileDocOrDirName}](${nextParentRelativePath})\n`;
+            directoryList += await getToolList(toolSubPath, `${nextParentRelativePath}`, level + 1);
+            continue;
+        }
+        const toolFileDocOrDirNameSplitted = toolFileDocOrDirName.split('.');
+        if (toolFileDocOrDirNameSplitted.lastIndexOf('md') == toolFileDocOrDirNameSplitted.length - 1) {
+            directoryList += `${indentationSpaces}- [${toolFileDocOrDirName}](${nextParentRelativePath})\n`;
+        }
+    }
+    return directoryList;
+}
+
 // Tools directory
 const updateTools = async function () {
     const directoryName = './tools';
@@ -15,15 +37,8 @@ const updateTools = async function () {
         const toolPath = `${directoryName}/${toolName}`;
         const toolPathStat = await fs.promises.stat(toolPath);
         if (!toolPathStat.isDirectory()) continue;
-        const toolFileList = await fs.promises.readdir(toolPath);
         directoryList += `- ${toolName}\n`;
-        for (let index = 0; index < toolFileList.length; index++) {
-            const toolFileDocName = toolFileList[index];
-            const toolFileDocNameSplitted = toolFileDocName.split('.');
-            if (toolFileDocNameSplitted.lastIndexOf('md') == toolFileDocNameSplitted.length - 1) {
-                directoryList += `  - [${toolFileDocName}](./${toolName}/${toolFileDocName})\n`;
-            }
-        }
+        directoryList += await getToolList(toolPath, `./${toolName}`, 1);
     }
     let finalDoc = "# Tools\n\n";
     finalDoc += "## List\n\n";
@@ -37,6 +52,6 @@ const main = async function () {
     console.log("Maintenance script executed successfully");
 };
 
-main().catch(err=>{
-    console.error("Maintenance script got error during execution: ", err);u
+main().catch(err => {
+    console.error("Maintenance script got error during execution: ", err); u
 });

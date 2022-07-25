@@ -15,6 +15,7 @@
 ----
 - If passphrase is not asked : `gpg -c --pinentry-mode=loopback test`
    - `--pinentry-mode=loopback` will force passphrase
+- Ask password from terminal: `export GPG_TTY=$(tty)`
 
 ----
 ## using gpg key from external device
