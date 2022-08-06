@@ -56,6 +56,7 @@
   - [minikube.md](./kubernetes/minikube.md)
   - [subtopics](./kubernetes/subtopics)
     - [deployments.md](./kubernetes/subtopics/deployments.md)
+    - [ingress.md](./kubernetes/subtopics/ingress.md)
     - [replicas.md](./kubernetes/subtopics/replicas.md)
     - [services.md](./kubernetes/subtopics/services.md)
 - make
@@ -65,6 +66,8 @@
   - [quirks.md](./mysql/quirks.md)
 - nc
   - [nc.md](./nc/nc.md)
+- nodejs_npm_deno
+  - [npm.md](./nodejs_npm_deno/npm.md)
 - openssl
   - [openssl.md](./openssl/openssl.md)
 - postgres
