@@ -8,6 +8,8 @@
   - [brave_browser.md](./brave_browser/brave_browser.md)
 - certbot
   - [certbot.md](./certbot/certbot.md)
+- crontab
+  - [crontab.md](./crontab/crontab.md)
 - curl
   - [curl.md](./curl/curl.md)
 - date
