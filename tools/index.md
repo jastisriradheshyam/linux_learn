@@ -58,9 +58,10 @@
   - [minikube.md](./kubernetes/minikube.md)
   - [subtopics](./kubernetes/subtopics)
     - [deployments.md](./kubernetes/subtopics/deployments.md)
-    - [health-checks.md](./kubernetes/subtopics/health-checks.md)
+    - [health-checks_rediness-probes.md](./kubernetes/subtopics/health-checks_rediness-probes.md)
     - [ingress.md](./kubernetes/subtopics/ingress.md)
     - [lables.md](./kubernetes/subtopics/lables.md)
+    - [pods.md](./kubernetes/subtopics/pods.md)
     - [replicas.md](./kubernetes/subtopics/replicas.md)
     - [services.md](./kubernetes/subtopics/services.md)
 - make
