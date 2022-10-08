@@ -71,4 +71,4 @@
 - docker layers image: `docker history IMAGE:TAG`
 
 - Size reduction tool: https://github.com/wagoodman/dive#dive
-- Destroless images: https://github.com/GoogleContainerTools/distroless
+- Distroless images: https://github.com/GoogleContainerTools/distroless
