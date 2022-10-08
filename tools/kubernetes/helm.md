@@ -21,3 +21,18 @@
 - The labels can be fetched by
   - `kubectl -n NAMESPACE get RESOURCE_TYPE --show-labels`
   - e.g. : `kubectl -n default get pods --show-labels`
+
+
+## Environment specific values
+
+- `helm COMMAND RELEASE_NAME CHART_NAME_OR_DIR -f values.common.yaml -f values.ENVIRONMENT_SLUG.yaml`
+- Helm will apply from left to right, during the application it will either do the addition or override the values to make the final values object to apply
+- Other tools
+  - [helmfile](https://github.com/helmfile/helmfile)
+  - [ocra](https://github.com/nuvo/orca)
+
+## References:
+
+- https://github.com/helm/helm/issues/5257
+- https://github.com/helm/helm/blob/ecef026b68a23f0c1399d98425134ce837126831/docs/using_helm.md#customizing-the-chart-before-installing
+- https://friedrichkurz.me/blog/2022/06/18/keeping-environment-specific-helm-configuration-dry/
