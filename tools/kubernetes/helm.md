@@ -25,7 +25,7 @@
 
 ## Environment specific values
 
-- `helm COMMAND RELEASE_NAME CHART_NAME_OR_DIR -f values.common.yaml -f values.ENVIRONMENT_SLUG.yaml`
+- `helm COMMAND RELEASE_NAME CHART_NAME_OR_DIR -n NAMESPACE -f values.common.yaml -f values.ENVIRONMENT_SLUG.yaml`
 - Helm will apply from left to right, during the application it will either do the addition or override the values to make the final values object to apply
 - Other tools
   - [helmfile](https://github.com/helmfile/helmfile)
