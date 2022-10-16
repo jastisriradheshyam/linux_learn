@@ -6,7 +6,7 @@
 - Delete service: `kubectl delete services SERVICE_NAME --namespace NAMESPACE`
 - Apply YAML file: `kubectl apply -f PATH_TO_CONFIG.yaml`
 - Delete using YAML file: `kubectl delete -f PATH_TO_CONFIG.yaml`
-
+- Restart the pods: `kubectl rollout restart deployment -n NAMESPACE DEPLOYMENT_NAME`
 
 ## Local development
 - Development with local container image:
