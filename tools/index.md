@@ -63,7 +63,9 @@
     - [labels.md](./kubernetes/subtopics/labels.md)
     - [pods.md](./kubernetes/subtopics/pods.md)
     - [replicas.md](./kubernetes/subtopics/replicas.md)
+    - [secrets.md](./kubernetes/subtopics/secrets.md)
     - [services.md](./kubernetes/subtopics/services.md)
+    - [web-ui.md](./kubernetes/subtopics/web-ui.md)
 - make
   - [make.md](./make/make.md)
 - mysql
@@ -79,6 +81,8 @@
   - [postgres.md](./postgres/postgres.md)
 - powershell
   - [powershell.md](./powershell/powershell.md)
+- prometheus_grafana
+  - [grafana.md](./prometheus_grafana/grafana.md)
 - ps
   - [ps.md](./ps/ps.md)
 - rsync

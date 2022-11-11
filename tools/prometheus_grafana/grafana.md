@@ -1,0 +1,1 @@
+- To display label: https://stackoverflow.com/questions/38525891/how-do-i-write-a-prometheus-query-that-returns-the-value-of-a-label

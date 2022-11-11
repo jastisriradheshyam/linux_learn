@@ -14,5 +14,11 @@
     - in `deployment.yaml` : `imagePullPolicy: Never`
 
 
+## Non frequent commands
+
+- Copy: `kubectl cp LOCAL_PATH NAMESPACE/POD_NAME:PATH_IN_POD`
+    - use `-c` argument for specific container
+
 ## References:
 - https://stackoverflow.com/questions/42564058/how-to-use-local-docker-images-with-minikube
+- https://medium.com/@nnilesh7756/copy-directories-and-files-to-and-from-kubernetes-container-pod-19612fa74660
