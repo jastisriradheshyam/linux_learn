@@ -65,6 +65,7 @@
     - [replicas.md](./kubernetes/subtopics/replicas.md)
     - [secrets.md](./kubernetes/subtopics/secrets.md)
     - [services.md](./kubernetes/subtopics/services.md)
+    - [storage-class.md](./kubernetes/subtopics/storage-class.md)
     - [web-ui.md](./kubernetes/subtopics/web-ui.md)
 - make
   - [make.md](./make/make.md)
