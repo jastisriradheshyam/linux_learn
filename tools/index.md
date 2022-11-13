@@ -80,6 +80,16 @@
   - [openssl.md](./openssl/openssl.md)
 - postgres
   - [postgres.md](./postgres/postgres.md)
+  - [sub-topics](./postgres/sub-topics)
+    - [control-flow.md](./postgres/sub-topics/control-flow.md)
+    - [grouping_and_aggregates.md](./postgres/sub-topics/grouping_and_aggregates.md)
+    - [joins.md](./postgres/sub-topics/joins.md)
+    - [keys.md](./postgres/sub-topics/keys.md)
+    - [keywords.md](./postgres/sub-topics/keywords.md)
+    - [operators-functions.md](./postgres/sub-topics/operators-functions.md)
+    - [sort.md](./postgres/sub-topics/sort.md)
+    - [types.md](./postgres/sub-topics/types.md)
+    - [union_intersect_except.md](./postgres/sub-topics/union_intersect_except.md)
 - powershell
   - [powershell.md](./powershell/powershell.md)
 - prometheus_grafana
