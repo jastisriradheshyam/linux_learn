@@ -6,6 +6,8 @@
   - [awk.md](./awk/awk.md)
 - brave_browser
   - [brave_browser.md](./brave_browser/brave_browser.md)
+- cat
+  - [cat.md](./cat/cat.md)
 - certbot
   - [certbot.md](./certbot/certbot.md)
 - crontab
@@ -57,13 +59,17 @@
   - [kubernetes.md](./kubernetes/kubernetes.md)
   - [minikube.md](./kubernetes/minikube.md)
   - [subtopics](./kubernetes/subtopics)
+    - [addons.md](./kubernetes/subtopics/addons.md)
+    - [config-map.md](./kubernetes/subtopics/config-map.md)
     - [deployments.md](./kubernetes/subtopics/deployments.md)
+    - [external-dns.md](./kubernetes/subtopics/external-dns.md)
     - [health-checks_readiness-probes.md](./kubernetes/subtopics/health-checks_readiness-probes.md)
     - [ingress.md](./kubernetes/subtopics/ingress.md)
     - [labels.md](./kubernetes/subtopics/labels.md)
     - [pods.md](./kubernetes/subtopics/pods.md)
     - [replicas.md](./kubernetes/subtopics/replicas.md)
     - [secrets.md](./kubernetes/subtopics/secrets.md)
+    - [service-discovery.md](./kubernetes/subtopics/service-discovery.md)
     - [services.md](./kubernetes/subtopics/services.md)
     - [storage-class.md](./kubernetes/subtopics/storage-class.md)
     - [web-ui.md](./kubernetes/subtopics/web-ui.md)
@@ -114,6 +120,8 @@
   - [tail.md](./tail/tail.md)
 - tar
   - [tar.md](./tar/tar.md)
+- telnet
+  - [telnet.md](./telnet/telnet.md)
 - tilix
   - [tilix.md](./tilix/tilix.md)
 - ufw

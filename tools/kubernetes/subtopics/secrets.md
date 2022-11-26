@@ -24,3 +24,7 @@ volumes:
   secret:
     secretName: secrets-object-name
 ```
+
+## Types
+
+- `Opaque`

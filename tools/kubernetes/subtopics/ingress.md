@@ -1,6 +1,11 @@
 # Ingress
 
 - kind: `Ingress`
+- Part of k8 since v1.1
+- Alternative to `Loadbalancer` and `nodePorts`
+- Ingress controller is a pod
+- On of the ingress controller is NGINX and it is hosted by using `ReplicationController` kind config file
+- Only works for HTTP and HTTPS connections
 
 ## Nginx Based annotations
 
@@ -17,5 +22,8 @@
       return 404 'Hey, resource not found!';
     }
   ```
+
+
+## References
 
 - https://www.callumpember.com/Easy-Kubernetes-Nginx-Ingress-Custom-Error-Pages/
