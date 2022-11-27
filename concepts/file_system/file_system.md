@@ -6,16 +6,25 @@
 - process information: `/proc`
 - device files: `/dev`
 - temporary files: `/tmp`
+    - generally files older (that are not touched) than 10 days are deleted
+    - on reboot all files are deleted in this directory
 - user system resources (user programs): `/usr`
+    - `bin`
+    - `local`
+    - `sbin`
+    - `tmp` : generally not present on newer distributions
 - optional files: `/opt`
 - home: `/home`
 - mount directory: `/mnt`
 - mount point for removable devices: `/media`
 - boot: `/boot`
 - variable files: `/var`
+    - `tmp` : generally files older (that are not touched) than 30 days are deleted
+        - on reboot all files are deleted in this directory
 - root home: `/root`
 - library: `/lib`
-- data for services provieded by the system (why?): `/srv`
+- data for services provided by the system (why?): `/srv`
+- contains data used at runtime and `tmpfs` filesystem: `/run`
 
 ## Space
 

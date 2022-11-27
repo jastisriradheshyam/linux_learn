@@ -1,6 +1,7 @@
 # Tool Set
 
 - List of tools available related to the work or context
+- Also refer to : [Common commands](./extra/common/commands.md)
 
 ## DNS
 
@@ -13,3 +14,19 @@
 
 - `nc`
 - `telnet`
+
+## Text or Code editors
+
+### GUI
+
+- `vscode`
+- `atom` : not maintained since 2022
+- `sublime`
+- `lapce`
+
+### CLI
+
+- `ed` : primitive one
+- `vi`. `vim`, `neovim`
+- `emacs`
+- `nano`

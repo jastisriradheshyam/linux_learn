@@ -8,10 +8,20 @@
 - `which` : shows the location of command
 - `history` : shows the list of commands used earlier
 
+## Session
+- `uptime`
+- `who`
+- `whoami`
+- `hostname`
+
+## User
+- `passwd`
+
 ### Program help
 - `whatis` : list one line description of a command
 - `apropos` : search the manual page names and descriptions
 - `man` : manual pages
+- `pinfo`: similar to man, but provides hyperlink style experience
 
 ## Context change tools
 - `cd` : change directory
