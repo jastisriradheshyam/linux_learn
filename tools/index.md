@@ -2,6 +2,8 @@
 
 ## List
 
+- ansible
+  - [ansible.md](./ansible/ansible.md)
 - awk
   - [awk.md](./awk/awk.md)
 - brave_browser
@@ -16,6 +18,8 @@
   - [curl.md](./curl/curl.md)
 - date
   - [date.md](./date/date.md)
+- df
+  - [df.md](./df/df.md)
 - dig-and-nslookup
   - [dig.md](./dig-and-nslookup/dig.md)
   - [nslookup.md](./dig-and-nslookup/nslookup.md)
@@ -127,9 +131,12 @@
 - ufw
   - [ufw.md](./ufw/ufw.md)
 - vi
+  - [tab.md](./vi/tab.md)
   - [vi.md](./vi/vi.md)
+  - [vi_commands.md](./vi/vi_commands.md)
 - virtual_box
   - [VBoxManage.md](./virtual_box/VBoxManage.md)
+  - [virtual_box.md](./virtual_box/virtual_box.md)
 - vscode
   - [vscode.md](./vscode/vscode.md)
 - watch
