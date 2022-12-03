@@ -4,6 +4,7 @@
 
 - ansible
   - [ansible.md](./ansible/ansible.md)
+  - [playbook.md](./ansible/playbook.md)
 - awk
   - [awk.md](./awk/awk.md)
 - brave_browser
