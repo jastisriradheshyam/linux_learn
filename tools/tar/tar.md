@@ -26,6 +26,19 @@
 - `xz` signifies use of `LZMA2` compression algorithm
 
 
+## Compression
+
+- gzip, bzip2, xz
+  - gzip is the fastest method to compress files
+    - `gzip` to compress (also can be used to un-compress) and `gunzip` to un-compress, extension: `.gz`
+    - with tar use cli argument `z`
+  - bzip2 is better than gzip, provides smaller compressed file than gzip
+    - `bzip2` to compress and `bunzip2` to un-compress, extension: `.bz2`
+    - with tar use cli argument `j`
+  - xz higher compression than gzip and bzip2 but takes large amount of time to compress.
+    - `xz` to compress and `xz -d` to un-compress, extension: `.xz`
+    - with tar use cli argument `J`
+
 ## References
 
 - https://unix.stackexchange.com/questions/301587/why-should-i-use-tar-xz-instead-of-tar-gz-xz-is-a-lossless-data-compression-pro

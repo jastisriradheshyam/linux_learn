@@ -5,6 +5,7 @@
 - `pwd` : shows the present working directory
 - `file` : shows the file content type and encoding
 - `locate`, `updatedb` : search the files that are indexed
+- `find`: search the files
 - `which` : shows the location of command
 - `history` : shows the list of commands used earlier
 
