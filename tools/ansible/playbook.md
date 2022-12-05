@@ -39,3 +39,16 @@
       - name: Run ls command
         ansible.builtin.command: ls
     ```
+- ls
+  - ```yaml
+    - name: run ls and register the output
+      ansible.builtin.command: 
+        chdir: /root
+        cmd: ls -alh
+      register: shell_result
+    - name: show the ls registered output
+      ansible.builtin.debug:
+        var: shell_result.stdout_lines
+    ```
+- delete a file
+  - just use the file module and add the path to delete and set `state` to `absent`
