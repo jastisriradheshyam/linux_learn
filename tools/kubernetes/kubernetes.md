@@ -23,6 +23,12 @@
 
 - `kubectl exec -it POD_NAME -C CONTAINER_NAME -- SHELL`
 
+
+## Drain node
+
+- `kubectl drain NODE_ID`
+- will remove all the pod, and other resources from the node, add `--force` to force the removal
+
 ## References:
 - https://stackoverflow.com/questions/42564058/how-to-use-local-docker-images-with-minikube
 - https://medium.com/@nnilesh7756/copy-directories-and-files-to-and-from-kubernetes-container-pod-19612fa74660

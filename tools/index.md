@@ -71,6 +71,7 @@
     - [health-checks_readiness-probes.md](./kubernetes/subtopics/health-checks_readiness-probes.md)
     - [ingress.md](./kubernetes/subtopics/ingress.md)
     - [labels.md](./kubernetes/subtopics/labels.md)
+    - [pod-presets.md](./kubernetes/subtopics/pod-presets.md)
     - [pods.md](./kubernetes/subtopics/pods.md)
     - [replicas.md](./kubernetes/subtopics/replicas.md)
     - [secrets.md](./kubernetes/subtopics/secrets.md)
