@@ -42,6 +42,8 @@
   - [firewall.md](./firewall/firewall.md)
 - fsck
   - [fsck.md](./fsck/fsck.md)
+- getent
+  - [getent.md](./getent/getent.md)
 - git
   - [git.md](./git/git.md)
 - gpg
@@ -63,6 +65,8 @@
   - [helm.md](./kubernetes/helm.md)
   - [kubernetes.md](./kubernetes/kubernetes.md)
   - [minikube.md](./kubernetes/minikube.md)
+  - [misc](./kubernetes/misc)
+    - [cgroupv2.md](./kubernetes/misc/cgroupv2.md)
   - [subtopics](./kubernetes/subtopics)
     - [addons.md](./kubernetes/subtopics/addons.md)
     - [config-map.md](./kubernetes/subtopics/config-map.md)
@@ -77,6 +81,7 @@
     - [secrets.md](./kubernetes/subtopics/secrets.md)
     - [service-discovery.md](./kubernetes/subtopics/service-discovery.md)
     - [services.md](./kubernetes/subtopics/services.md)
+    - [statefulsets.md](./kubernetes/subtopics/statefulsets.md)
     - [storage-class.md](./kubernetes/subtopics/storage-class.md)
     - [web-ui.md](./kubernetes/subtopics/web-ui.md)
 - make
@@ -90,6 +95,11 @@
   - [npm.md](./nodejs_npm_deno/npm.md)
 - openssl
   - [openssl.md](./openssl/openssl.md)
+- podman
+  - [buildah.md](./podman/buildah.md)
+  - [podman.md](./podman/podman.md)
+  - [rootless.md](./podman/rootless.md)
+  - [skopeo.md](./podman/skopeo.md)
 - postgres
   - [postgres.md](./postgres/postgres.md)
   - [sub-topics](./postgres/sub-topics)
