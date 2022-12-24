@@ -46,6 +46,7 @@
   - [getent.md](./getent/getent.md)
 - git
   - [git.md](./git/git.md)
+  - [submodule.md](./git/submodule.md)
 - gpg
   - [disable_password_caching.md](./gpg/disable_password_caching.md)
   - [gpg.md](./gpg/gpg.md)
@@ -103,6 +104,7 @@
 - postgres
   - [postgres.md](./postgres/postgres.md)
   - [sub-topics](./postgres/sub-topics)
+    - [constraints.md](./postgres/sub-topics/constraints.md)
     - [control-flow.md](./postgres/sub-topics/control-flow.md)
     - [grouping_and_aggregates.md](./postgres/sub-topics/grouping_and_aggregates.md)
     - [joins.md](./postgres/sub-topics/joins.md)

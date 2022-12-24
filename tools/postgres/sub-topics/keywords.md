@@ -42,3 +42,5 @@
 - `THEN`
 - `ELSE`
 - `END`
+- `TIMESTAMP`
+- `CHECK`

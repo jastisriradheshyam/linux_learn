@@ -17,6 +17,11 @@
 
 ## User
 - `passwd`
+- `userdel`
+- `useradd`
+- `groupadd`
+- `groupdel`
+- refer : [Security](../../concepts/security/security.md)
 
 ### Program help
 - `whatis` : list one line description of a command

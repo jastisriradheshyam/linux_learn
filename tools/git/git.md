@@ -14,7 +14,7 @@
 ----
 
 - Removes the file from the repo (after this commit has to be done) and file is not removed from current working area:  `git rm --cached <filePath>`
-- Will unstage any staged changes for the given file(s): `git reset -- <filePath>`
+- Will un-stage any staged changes for the given file(s): `git reset -- <filePath>`
 - Pull from current branch: `git pull origin $(git branch | awk '/*/ {print $2}')`
 - create a new branch with current branch contents: `git checkout -b new_branch`
 - remove file(s) from  index: `git reset PATH`
@@ -25,7 +25,7 @@
 - verify origin url: `git remote -v`
 - add remote origin url http: `git remote add origin http://IP/path/to/repository`
 - change the remote origin url: `git remote set-url origin https://github.com/username/repo`
-- updates the remote brances information and data : `git remote update`
+- updates the remote branches information and data : `git remote update`
 ----
 
 - shows the commit changes: `git show GITCOMMITHASH`
@@ -58,7 +58,7 @@
 
 - `git config --local user.signingkey "GPG_SHORT_ID"`
 - `git config --local commit.gpgsign true`
-  - will make gpg sign process everytime the commit is done
+  - will make gpg sign process every time the commit is done
 - `git config --local user.email "name@domain"`
 - `git config --local user.name "Name"`
 - `git config --local user.username "username"`
@@ -68,6 +68,11 @@
   - `git config --global gpg.program $(Resolve-Path (Get-Command gpg | Select-Object -Expand Source) | Select-Object -Expand Path)`
 ---
 
-## Referance:
+## Reference:
 - git-tower.com/learning/git/faq/chnage-author-name-email
 - [git - How do I install and use gpg-agent on Windows? - Stack Overflow](https://stackoverflow.com/questions/50332885/how-do-i-install-and-use-gpg-agent-on-windows)
+
+
+## Learning resources
+
+- https://learngitbranching.js.org/
