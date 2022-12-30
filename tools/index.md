@@ -80,6 +80,7 @@
     - [pods.md](./kubernetes/subtopics/pods.md)
     - [replicas.md](./kubernetes/subtopics/replicas.md)
     - [secrets.md](./kubernetes/subtopics/secrets.md)
+    - [security-context.md](./kubernetes/subtopics/security-context.md)
     - [service-discovery.md](./kubernetes/subtopics/service-discovery.md)
     - [services.md](./kubernetes/subtopics/services.md)
     - [statefulsets.md](./kubernetes/subtopics/statefulsets.md)
