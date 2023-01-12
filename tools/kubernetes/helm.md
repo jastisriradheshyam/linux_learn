@@ -31,6 +31,11 @@
   - [helmfile](https://github.com/helmfile/helmfile)
   - [ocra](https://github.com/nuvo/orca)
 
+## Variable and templates
+
+- https://stackoverflow.com/questions/69702163/helm-kube-prometheus-stack-can-i-create-rules-for-exporters-in-values-yaml
+- https://stackoverflow.com/questions/59575498/what-is-the-usage-of-include-in-helm
+
 ## References:
 
 - https://github.com/helm/helm/issues/5257

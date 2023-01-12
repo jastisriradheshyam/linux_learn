@@ -29,6 +29,13 @@
 - `kubectl drain NODE_ID`
 - will remove all the pod, and other resources from the node, add `--force` to force the removal
 
+## Port Forward
+
+- `kubectl port-forward pods/POD_NAME PORT_IN_LOCAL:PORT_IN_KUBE -n NAMESPACE`
+- `kubectl port-forward deployment/DEPLOYMENT_NAME PORT_IN_LOCAL:PORT_IN_KUBE -n NAMESPACE`
+- `kubectl port-forward replicaset/REPLICA_SET_NAME PORT_IN_LOCAL:PORT_IN_KUBE -n NAMESPACE`
+- `kubectl port-forward service/SERVICE_NAME PORT_IN_LOCAL:PORT_IN_KUBE -n NAMESPACE`
+
 ## References:
 - https://stackoverflow.com/questions/42564058/how-to-use-local-docker-images-with-minikube
 - https://medium.com/@nnilesh7756/copy-directories-and-files-to-and-from-kubernetes-container-pod-19612fa74660
