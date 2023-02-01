@@ -72,3 +72,4 @@
 
 - Size reduction tool: https://github.com/wagoodman/dive#dive
 - Distroless images: https://github.com/GoogleContainerTools/distroless
+- Build without cache: `docker build --no-cache --pull ...`

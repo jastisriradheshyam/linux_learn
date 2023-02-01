@@ -26,8 +26,8 @@
   - [nslookup.md](./dig-and-nslookup/nslookup.md)
 - docker
   - [docker-compose.md](./docker/docker-compose.md)
+  - [docker-file.md](./docker/docker-file.md)
   - [docker.md](./docker/docker.md)
-  - [dockerfile.md](./docker/dockerfile.md)
   - [registry.md](./docker/registry.md)
   - [secrets.md](./docker/secrets.md)
   - [stack.md](./docker/stack.md)
@@ -70,6 +70,8 @@
     - [cgroupv2.md](./kubernetes/misc/cgroupv2.md)
   - [subtopics](./kubernetes/subtopics)
     - [addons.md](./kubernetes/subtopics/addons.md)
+    - [affinity_anti-affinity_node-selector.md](./kubernetes/subtopics/affinity_anti-affinity_node-selector.md)
+    - [auto-scaling.md](./kubernetes/subtopics/auto-scaling.md)
     - [config-map.md](./kubernetes/subtopics/config-map.md)
     - [daemon-set.md](./kubernetes/subtopics/daemon-set.md)
     - [deployments.md](./kubernetes/subtopics/deployments.md)
