@@ -54,6 +54,8 @@
   - [gpg_faq.md](./gpg/gpg_faq.md)
 - grep
   - [grep.md](./grep/grep.md)
+- grubby
+  - [grubby.md](./grubby/grubby.md)
 - haproxy
   - [haproxy.md](./haproxy/haproxy.md)
 - ip
