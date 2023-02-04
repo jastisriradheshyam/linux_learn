@@ -142,6 +142,7 @@
 - sudo
   - [sudoers.md](./sudo/sudoers.md)
 - systemd
+  - [journalctl.md](./systemd/journalctl.md)
   - [systemd.md](./systemd/systemd.md)
 - tail
   - [tail.md](./tail/tail.md)
