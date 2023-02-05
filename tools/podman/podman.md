@@ -107,6 +107,27 @@
 - Does the volume mounting from host into machine
 - Does the Port mapping
 
+
+## Inspect
+
+- Example of finding expose port: `podman inspect IMAGE | grep expose`
+- Example of finding the usage: `podman inspect IMAGE | grep usage`
+
+## Networking
+
+### Publish all
+
+- `podman run --name=CONTAINER_NAME -d --publish-all IMAGE_NAME:IMAGE_TAG`
+  - To list what ports are exposed on host: `podman port -l`
+  - Firewall: `sudo firewall-cmd --add-port PORT_MAPPED_ON_HOST/tcp`
+
+## Volumes
+
+- `podman rm -a`
+- `chcon -Rvt container_file_t PATH_ON_FILE_SYSTEM`
+- `podman run --name=CONTAINER_NAME -d --publish-all -v PATH_ON_HOST:PATH_IN_CONTAINER IMAGE_NAME:IMAGE_TAG`
+
+
 ## References:
 - [Understanding the Podman Internals - YouTube](https://www.youtube.com/watch?v=kJnxeinEWyA)
 - [GitHub - containers/netavark: Container network stack](https://github.com/containers/netavark)
