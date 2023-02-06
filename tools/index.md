@@ -91,6 +91,7 @@
     - [services.md](./kubernetes/subtopics/services.md)
     - [statefulsets.md](./kubernetes/subtopics/statefulsets.md)
     - [storage-class.md](./kubernetes/subtopics/storage-class.md)
+    - [taint_tolerance.md](./kubernetes/subtopics/taint_tolerance.md)
     - [web-ui.md](./kubernetes/subtopics/web-ui.md)
 - make
   - [make.md](./make/make.md)
@@ -133,6 +134,8 @@
   - [rsync.md](./rsync/rsync.md)
 - screen
   - [screen.md](./screen/screen.md)
+- sed
+  - [sed.md](./sed/sed.md)
 - selinux
   - [selinux.md](./selinux/selinux.md)
 - ss
