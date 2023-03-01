@@ -1,6 +1,11 @@
 # Operators
 
 - An operator is a method of packaging, deploying, and managing a Kubernetes application
+- Usually an operator is third party application to manage a specific application or deployment.
+
+- Once deployed, it can be managed using CRD's.
+
+- Introduced by CoreOS
 
 ## References:
 
