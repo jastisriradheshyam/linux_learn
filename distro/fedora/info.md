@@ -1,1 +1,2 @@
 - Kernel link: https://src.fedoraproject.org/rpms/kernel
+- Why Kernel package has -300 or -200 as postfix : https://www.reddit.com/r/Fedora/comments/i9lpqs/comment/g1h7r7c/?utm_source=share&utm_medium=web2x&context=3
