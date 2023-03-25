@@ -36,6 +36,10 @@
 - https://stackoverflow.com/questions/69702163/helm-kube-prometheus-stack-can-i-create-rules-for-exporters-in-values-yaml
 - https://stackoverflow.com/questions/59575498/what-is-the-usage-of-include-in-helm
 
+## Restart on config map update
+
+- https://stackoverflow.com/questions/58602311/will-helm-upgrade-restart-pods-even-if-they-are-not-affected-by-upgrade
+
 ## References:
 
 - https://github.com/helm/helm/issues/5257

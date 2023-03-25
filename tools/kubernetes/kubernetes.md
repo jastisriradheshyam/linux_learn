@@ -36,6 +36,13 @@
 - `kubectl port-forward replicaset/REPLICA_SET_NAME PORT_IN_LOCAL:PORT_IN_KUBE -n NAMESPACE`
 - `kubectl port-forward service/SERVICE_NAME PORT_IN_LOCAL:PORT_IN_KUBE -n NAMESPACE`
 
+## Kill exec
+
+- `kill -9 $(pidof kubectl)`
+- Add request timeout : `--request-timeout=<value>`
+
 ## References:
+
 - https://stackoverflow.com/questions/42564058/how-to-use-local-docker-images-with-minikube
 - https://medium.com/@nnilesh7756/copy-directories-and-files-to-and-from-kubernetes-container-pod-19612fa74660
+- https://stackoverflow.com/questions/50939668/how-can-i-exit-a-kubectl-exec-command-that-has-frozen-due-to-a-network-error
