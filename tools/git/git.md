@@ -29,6 +29,7 @@
 ----
 
 - shows the commit changes: `git show GITCOMMITHASH`
+- Difference for a particular file / directory from a different branch: `git diff BRANCH_NAME PATH_INSIDE_REPO`
 
 ----
 
