@@ -13,6 +13,8 @@
   - [cat.md](./cat/cat.md)
 - certbot
   - [certbot.md](./certbot/certbot.md)
+- cpupower
+  - [cpupower.md](./cpupower/cpupower.md)
 - crontab
   - [crontab.md](./crontab/crontab.md)
 - curl
