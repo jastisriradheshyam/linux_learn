@@ -30,6 +30,8 @@
   - [docker-compose.md](./docker/docker-compose.md)
   - [docker-file.md](./docker/docker-file.md)
   - [docker.md](./docker/docker.md)
+  - [plugins](./docker/plugins)
+    - [buildx.md](./docker/plugins/buildx.md)
   - [registry.md](./docker/registry.md)
   - [secrets.md](./docker/secrets.md)
   - [stack.md](./docker/stack.md)
