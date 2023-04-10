@@ -11,3 +11,5 @@
   - APT: `sudo apt-get install linux-tools-common`
 
 [1]: [Fixing a sluggish Linux after suspend-resume](https://www.perl.com/article/fixing-a-sluggish-linux-after-suspend-resume/)
+
+[2]: [controlling_processor_c-state_usage_in_linux_v1.1_nov2013.pdf](https://wiki.bu.ost.ch/infoportal/_media/embedded_systems/ethercat/controlling_processor_c-state_usage_in_linux_v1.1_nov2013.pdf)
