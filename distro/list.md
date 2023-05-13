@@ -3,6 +3,8 @@
 ## Linux
 
 - Solus OS
+  - Will be merged with Serpent OS
+- Serpent OS
 
 ### Debian Based
 
@@ -16,6 +18,9 @@
 - Red Hat
 - Cent OS
 - Fedora
+- NOBARA
+  - Modified Fedora, more focused on Gaming and device support
+  - https://nobaraproject.org/
 
 ## Non - Linux
 
