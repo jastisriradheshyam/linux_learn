@@ -9,3 +9,13 @@
 ## Commands
 
 - Downgrade: `dnf downgrade PACKAGE_NAME`
+
+## After Distro Upgrade
+- `dnf distro-sync`
+
+## Remove unused packages
+
+- Auto remove: `dnf autoremove`
+- To identify extra and unneeded packages
+  - `dnf repoquery --extras`
+  - `dnf repoquery --unneeded`
