@@ -7,3 +7,5 @@
 - listing mounted file systems
   - `findmnt -l`
   - `mount`
+- Mount with user access:
+  - `sudo mount -o uid=USER_NAME,gid=USER_GROUP DEVICE_PATH MOUNT_POINT`
