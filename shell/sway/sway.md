@@ -6,6 +6,9 @@ cp /etc/sway/config ~/.config/sway/
 $EDITOR ~/.config/sway/config
 ```
 
+## NVIDIA
+- Sway does not support nvidia propritary driver
+- To handle this we have to add '--unsupported-gpu' flag in `Exec` section in file: `/usr/share/wayland-sessions/sway.desktop`
 
 ## Applcations
 - Audio controls GUI: `pavcontrol`
@@ -31,3 +34,8 @@ $EDITOR ~/.config/sway/config
 - splith/splitv : Mod1 + e
 - stacking: Mod1 + s
 - tabbed: Mod1 + w
+
+
+## References:
+
+[1]: [Sway Cheatsheet | Garuda Linux wiki](https://wiki.garudalinux.org/en/sway-cheatsheet)
