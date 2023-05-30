@@ -1,6 +1,6 @@
 - `lsblk` :list the block devices except RAM disks.
 - `sudo fdisk /dev/sdb`: used for partitioning disks.
-- `sudo mkfs.ntfs /dev/sdb1 --quick`: format a disk with NTFS formating
+- `sudo mkfs.ntfs /dev/sdb1 --quick`: format a disk with NTFS formatting
 - `sudo fdisk -l`: list the formated disks.
 - `sudo umount path`: unmount the path that was mounted before.
 - `sudo mount /dev/sdb1 ~/.mnt/usb/`: mount a disk/device to path.

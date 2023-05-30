@@ -52,6 +52,7 @@
   - [getent.md](./getent/getent.md)
 - git
   - [git.md](./git/git.md)
+  - [internals.md](./git/internals.md)
   - [submodule.md](./git/submodule.md)
 - gpg
   - [disable_password_caching.md](./gpg/disable_password_caching.md)

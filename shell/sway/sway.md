@@ -39,3 +39,5 @@ $EDITOR ~/.config/sway/config
 ## References:
 
 [1]: [Sway Cheatsheet | Garuda Linux wiki](https://wiki.garudalinux.org/en/sway-cheatsheet)
+
+[2]: [From gnome shell to sway : r/swaywm](https://www.reddit.com/r/swaywm/comments/c1oz8p/from_gnome_shell_to_sway/)
