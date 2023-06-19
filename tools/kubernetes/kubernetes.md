@@ -7,6 +7,12 @@
 - Apply YAML file: `kubectl apply -f PATH_TO_CONFIG.yaml`
 - Delete using YAML file: `kubectl delete -f PATH_TO_CONFIG.yaml`
 - Restart the pods: `kubectl rollout restart deployment -n NAMESPACE DEPLOYMENT_NAME`
+- Copy with multiple retries: `kubectl cp --retries=-1 POD_NAME:PATH_INSIDE_POD PATH_ON_HOST`
+  - fixes following issue
+  ```
+  Dropping out copy after 0 retries
+  error: unexpected EOF
+  ```
 
 ## Local development
 - Development with local container image:
