@@ -1,7 +1,7 @@
 # Podman
 
 
-## Command commands
+## Userspace commands
 
 - `touch /etc/subuid /etc/subgid`
 - `chmod 644 /etc/subuid /etc/subgid`

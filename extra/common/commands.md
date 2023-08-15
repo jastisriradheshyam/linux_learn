@@ -28,6 +28,7 @@
 - `apropos` : search the manual page names and descriptions
 - `man` : manual pages
 - `pinfo`: similar to man, but provides hyperlink style experience
+- `command`: To check if command exists
 
 ## Context change tools
 - `cd` : change directory

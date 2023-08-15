@@ -24,3 +24,8 @@
 - `lshw -class memory` : Shows memory hardware info
 - `dmidecode -t 16` : Shows memory hardware info
 - `free` : Show the current memory space status
+
+## EC
+
+- https://github.com/musikid/acpi_ec
+    - read/write: `/dev/ecc`
