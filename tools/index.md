@@ -149,6 +149,8 @@
   - [sed.md](./sed/sed.md)
 - selinux
   - [selinux.md](./selinux/selinux.md)
+- socat
+  - [socat.md](./socat/socat.md)
 - ss
   - [ss.md](./ss/ss.md)
 - ssh
