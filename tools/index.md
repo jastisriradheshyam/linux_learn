@@ -154,6 +154,7 @@
 - ss
   - [ss.md](./ss/ss.md)
 - ssh
+  - [ssh-port-forward.md](./ssh/ssh-port-forward.md)
   - [ssh.md](./ssh/ssh.md)
 - sudo
   - [sudoers.md](./sudo/sudoers.md)
