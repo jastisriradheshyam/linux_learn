@@ -5,3 +5,13 @@
 - restart a service: `systemctl restart service_name`
 - status of a service: `systemctl status service_name`
   - Status without pager and log lines (helpful in scripts) : `systemctl status service_name --lines=0 --no-pager`
+
+- List all systemd services
+  - `systemctl list-unit-files`
+
+- User Unit files
+  - `mkdir -p ~/.config/systemd/user/`
+  - add service file : `~/.config/systemd/user/myapp.service`
+  - `systemctl --user daemon-reload`
+  - `systemctl --user start myapp.service`
+  - `systemctl --user enable myapp.service`

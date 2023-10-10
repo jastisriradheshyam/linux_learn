@@ -24,3 +24,9 @@
     - `media.ffmpeg.vaapi.enabled` -> true
     - `media.rdd-vpx.enabled` -> true
 - https://fedoraproject.org/wiki/Firefox_Hardware_acceleration
+
+## Customization
+
+- https://github.com/MrOtherGuy/firefox-csshacks
+- https://www.userchrome.org
+- https://superuser.com/questions/1568072/hide-navigation-bar-in-firefox
