@@ -1,6 +1,11 @@
 # Commands
 
-- `i` : insert mode
+- `i` : insert mode before the current character
+- `I`: insert mode at the start of the line
+- `o`: new line after the current line
+- `O`: new line before the current line
+- `a`: append after the current character
+- `A`: append at the end of the line
 - use number before command to do the execute the command in the multiple of that number (not always but commonly)
   - like `8 + yy` copy all the eight lines from the starting of the cursor
 - `G` or `shift + g` : first letter line

@@ -15,3 +15,19 @@
   - `systemctl --user daemon-reload`
   - `systemctl --user start myapp.service`
   - `systemctl --user enable myapp.service`
+
+
+## Unit file example
+
+```service
+[Unit]
+Description=My Example Service
+
+[Service]
+ExecStart=/path/to/your/executable
+Restart=always
+
+[Install]
+WantedBy=default.target
+
+```
