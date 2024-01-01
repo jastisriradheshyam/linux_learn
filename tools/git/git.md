@@ -10,6 +10,11 @@
 - status of the git repo: `git status`
 - stash the changes: `git stash`
 - apply the latest stash: `git stash apply`
+- Git diff
+  - Current changes between working area vs repo: `git diff`
+  - changes between staging area vs repo: `git diff --cached`
+- Git pull
+  - it does `git fetch` and `git merge`
 
 ----
 

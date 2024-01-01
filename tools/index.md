@@ -169,6 +169,8 @@
   - [telnet.md](./telnet/telnet.md)
 - tilix
   - [tilix.md](./tilix/tilix.md)
+- tmux
+  - [tmux.md](./tmux/tmux.md)
 - ufw
   - [ufw.md](./ufw/ufw.md)
 - vi
