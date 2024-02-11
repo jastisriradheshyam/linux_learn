@@ -111,6 +111,8 @@
   - [quirks.md](./mysql/quirks.md)
 - nc
   - [nc.md](./nc/nc.md)
+- neovim
+  - [neovim.md](./neovim/neovim.md)
 - nodejs_npm_deno
   - [npm.md](./nodejs_npm_deno/npm.md)
 - openssl
