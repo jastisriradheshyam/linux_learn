@@ -18,6 +18,10 @@ Host just_a_name_to_host
      IdentityFile path_to_the_identity_file_if_exists
 ```
 
+## Security Harding
+- PermitRootLogin: no; PasswordAuthentication: no; ChallengeResponseAuthentication: no; UsePAM: yes; AllowUsers: Necessary user only; AllowGroups: Necessary group only.
+    - TODO: has to detail out the config
+
 ## References:
 
 [1] : [OpenSSH Config File Examples - nixCraft](https://www.cyberciti.biz/faq/create-ssh-config-file-on-linux-unix/)

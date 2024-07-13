@@ -7,5 +7,10 @@
 
 - Sometimes permissions are not correct then remove selinux packages and reinstall and do this on the directory in which you are facing issues: `restorecon -R -v PATH`
 
+## Alertnatives
+- AppArmor
+- Tomoyo
+- Grsecurity
+
 ## References:
 - https://www.thegeekdiary.com/how-to-disable-or-set-selinux-to-permissive-mode/

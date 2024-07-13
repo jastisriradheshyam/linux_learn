@@ -19,3 +19,9 @@
 - To identify extra and unneeded packages
   - `dnf repoquery --extras`
   - `dnf repoquery --unneeded`
+
+- To remove duplicate packages
+  - list: `dnf repoquery --duplicates`
+  - remove: `dnf remove --duplicates`
+- remove package without removing dependencies
+  - `sudo rpm -e --nodeps package.xx.xx`
